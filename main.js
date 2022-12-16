@@ -117,6 +117,7 @@ for(let item of categories) {
     item.course = item.course.trim()
     arr.filter(student => {
         student.info.faculity.toUpperCase() == item.course ? item.count++ : null
+        // student.info.faculity.toUpperCase() == item.course.trim() ? item.count++ : null
     })
 }
 
