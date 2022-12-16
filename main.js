@@ -113,7 +113,7 @@ let categories = [
     },
 ]
 
-for(let item of arr) {
+for(let item of categories) {
     item.course = item.course.trim()
     arr.filter(student => {
         student.info.faculity.toUpperCase() == item.course ? item.count++ : null
